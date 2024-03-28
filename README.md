@@ -92,11 +92,7 @@ This React code creates a component called `DataDisplay` to fetch and display da
 - **useState**: React Hook for managing state in functional components.
 - **useEffect**: React Hook for handling side effects in functional components.
 
-## Installation
 
-install dependencies after going client directory
-
-npm install 
 
 # Express Server + MongoDB
 
@@ -139,7 +135,9 @@ This code sets up an Express server connected to a MongoDB database. It provides
 
 ## Installation
 
-To use this code, ensure you have Node.js and npm installed. Then, run the following command in your terminal:
+## Installation
+
+install dependencies after going client and server directory seperately and run following command
 
 ```bash
-npm install express mongoose cors
+npm install 
