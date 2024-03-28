@@ -135,8 +135,6 @@ This code sets up an Express server connected to a MongoDB database. It provides
 
 ## Installation
 
-## Installation
-
 install dependencies after going client and server directory seperately and run following command
 
 ```bash
