@@ -95,7 +95,7 @@ This React code creates a component called `DataDisplay` to fetch and display da
 ## Installation
 
 install dependencies after going client directory
-```bash
+
 npm install 
 
 # Express Server + MongoDB
