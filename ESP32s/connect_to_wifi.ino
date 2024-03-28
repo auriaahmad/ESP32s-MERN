@@ -6,8 +6,8 @@
 #include <WiFiUdp.h>
 
 
-const char* ssid     = "Bait-ul-Raza";
-const char* password = "WT@7321315";
+const char* ssid     = "<wifi name>";
+const char* password = "<password>";
 WiFiUDP ntpUDP;
 const char* ntpServer = "pool.ntp.org";
 
@@ -60,7 +60,7 @@ void loop() {
     HTTPClient http;
 
     // Your server address
-    http.begin("http://192.168.18.91:3005/temperature");
+    http.begin("http://<ip address>:<port>/temperature");
 
     // Set content type
     http.addHeader("Content-Type", "application/json");
