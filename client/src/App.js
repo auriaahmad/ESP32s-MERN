@@ -8,7 +8,7 @@ const DataDisplay = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://192.168.18.91:3005/data?numPoints=${numPoints}`);
+        const response = await axios.get(`http://<ip address>:<port>/data?numPoints=${numPoints}`);
         const data = response.data;
         setDataPoints(data.slice(0, numPoints)); // Slice data to number of points needed
       } catch (error) {
